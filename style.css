@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+
+  --clr-tt:#0C3440;
+  
+  --clr-tt-label:#00453A; 
+  --clr-tt-input:#212529;
+  --clr-bg-input:#DCE2E9;
+  --clr-tt-placeholder:rgba(73, 80, 87, 0.50);;
+  --clr-bd-input:rgba(73, 80, 87, 0.30);
+  
+  --clr-tt-button:white;
+  --clr-button-outline:#02799D;
+ 
+  --clr-tt-erro:white;
+  --clr-error:#F03E3E;
+}
+
+body{
+  background-color: #040924;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  
+}
+
+.card{
+  padding: 4.8rem 6.4rem 6.4rem;
+  background-color: white;
+  max-width: 42.8rem;
+  border-radius: 0.6rem;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  /* max-height: 44.0rem; */
+  margin-inline: auto;
+}
