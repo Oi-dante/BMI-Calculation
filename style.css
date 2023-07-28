@@ -17,6 +17,7 @@
   
   --clr-tt-button:white;
   --clr-button-outline:#02799D;
+  --clr-button-hover:#036582;
  
   --clr-tt-erro:white;
   --clr-error:#F03E3E;
@@ -24,9 +25,14 @@
 
 body{
   background-color: #040924;
-  font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
 }
+
+body, input, button {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
 
 .container{
   height: 100vh;
@@ -43,4 +49,108 @@ body{
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
   /* max-height: 44.0rem; */
   margin-inline: auto;
+}
+
+
+.title{
+  color: var(--clr-tt);
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+
+form{
+  width: 30rem;
+}
+
+form h1{
+  margin-bottom: 3.2rem;
+}
+
+form label{
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--clr-tt-label);
+  margin-bottom: .8rem;
+  display: block;
+}
+
+
+/* INPUT */
+form input{
+  width: 100%;
+  border: 1px solid var(--clr-bd-input);
+  background: var(--clr-bg-input);
+  padding: 1.6rem;
+  border-radius: .4rem;
+}
+
+form input:focus{
+  outline: 2px solid var(--clr-button-outline);
+}
+
+form input::placeholder{
+  color: var(--clr-tt-placeholder);
+}
+
+.input-wrapper + .input-wrapper{
+  margin-top: 1.6rem;
+}
+
+form button{
+  margin-top: 3.2rem;
+  padding: 1.6rem;
+  width: 100%;
+  
+  
+  border: none;
+  border-radius: .4rem;
+  background: var(--clr-button-outline);
+  color: var(--clr-tt-button);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+
+  font-weight: bold;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+form button:hover{
+  background: var(--clr-button-hover);
+}
+
+/* MODAL */
+.modal-wrapper.open {
+  opacity: 1;
+  visibility: visible;  
+}
+
+.modal-wrapper{
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.70);
+
+  display: grid;
+  place-content: center;
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal{
+  position: relative;
+}
+
+.modal button{
+  background: none;
+  border: none;
+  position: absolute;
+
+  top: 1.6rem;
+  right: 1.6rem;
+
+  cursor: pointer;
+
 }

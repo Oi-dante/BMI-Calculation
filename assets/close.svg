@@ -1,0 +1,56 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#1E1E1E"/>
+<g id="modal" clip-path="url(#clip0_6_4)">
+<rect width="1280" height="720" transform="translate(-781 -300)" fill="#040924"/>
+<g id="card" filter="url(#filter0_d_6_4)">
+<rect x="-355" y="-170" width="428" height="446" rx="6" fill="white" shape-rendering="crispEdges"/>
+<g id="Group 35">
+<g id="Forms">
+<g id="Input">
+<g id="content">
+<rect x="-290.698" y="-25.8587" width="299.395" height="55.3951" rx="3.69757" fill="#DCE2E9"/>
+<rect x="-290.698" y="-25.8587" width="299.395" height="55.3951" rx="3.69757" stroke="#02799D" stroke-width="0.604861"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<rect id="bg-overlay" x="-781" y="-300" width="1280" height="720" fill="black" fill-opacity="0.7"/>
+<g id="modal-card">
+<g id="Frame 36" filter="url(#filter1_d_6_4)">
+<rect x="-323" y="-16" width="363" height="152" rx="6" fill="white" shape-rendering="crispEdges"/>
+</g>
+<g id="close" clip-path="url(#clip1_6_4)">
+<path id="Vector" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="#0C3440" fill-opacity="0.6"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_6_4" x="-359" y="-172" width="436" height="454" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6_4"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6_4" result="shape"/>
+</filter>
+<filter id="filter1_d_6_4" x="-327" y="-18" width="371" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6_4"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6_4" result="shape"/>
+</filter>
+<clipPath id="clip0_6_4">
+<rect width="1280" height="720" fill="white" transform="translate(-781 -300)"/>
+</clipPath>
+<clipPath id="clip1_6_4">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
