@@ -10,47 +10,51 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   
-  <script src="main.js"></script>
 </head>
 <body>
-
+  
+  <div class="alert-error open">
+    Digite Somente Números
+  </div>
+  
   <div class="container">
     <main class="card">
-      <form action="">
+      <form>
         <h1 class="title">Cálculo de IMC</h1>
         <div class="input-wrapper">
-          <label for="weight">Peso (kg)
-          </label>
+          <label for="weight">Peso (kg)</label>
           <input 
-            id="weight" 
-            type="text"
-            placeholder="60">
+          id="weight" 
+          type="number"
+          placeholder="60">
             
         </div>
-
+        
         <div class="input-wrapper">
-          <label for="height">Altura (m)
-          </label>
+          <label for="height">Altura (cm)</label>
           <input 
-            id="height"
-            type="text"
-            placeholder="165">
+          id="height"
+          type="number"
+          placeholder="165">
         </div>
         <button type="submit">Calarcular IMC <img src="assets/arrow-up-right.svg" alt="arrow-up-right"></button>
       </form>
     </main>
   </div>
-
-  <div class="modal-wrapper open">
+  
+  <div class="modal-wrapper">
     <div class="modal card">
       <h2 class="title">
+
         <button class="close">
-            <img src="assets/close.svg" alt="">
+          <img src="assets/close.svg" alt="">
         </button>
-        Seu IMC é de28
+        
+        <span>Seu IMC é de 28</span>
       </h2>
     </div>
   </div>
- 
+  
+  <script src="main.js"></script>
 </body>
 </html>

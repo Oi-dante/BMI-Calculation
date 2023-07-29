@@ -154,3 +154,28 @@ form button:hover{
   cursor: pointer;
 
 }
+
+/* ERROR */
+.alert-error.open{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.alert-error{
+  position: absolute;
+  background-color: var(--clr-error);
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: var(--clr-tt-erro);
+  padding: .8rem;
+  font-weight: bold;  
+
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: transform .5s;
+}
+
